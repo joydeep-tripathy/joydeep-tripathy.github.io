@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://joydeep-tripathy.github.io/sitemap.xml
