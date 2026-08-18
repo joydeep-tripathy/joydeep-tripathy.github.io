@@ -53,7 +53,7 @@ export default function Home() {
             </a>
             <a
               className="button button-ghost"
-              href="https://github.com/joydeep-tripathy"
+              href="https://github.com/joydeep049"
               target="_blank"
               rel="noreferrer"
             >
@@ -161,7 +161,7 @@ export default function Home() {
             <div className="oss-links">
               <a
                 className="button button-primary"
-                href="https://gist.github.com/joydeep-tripathy/c2252e72d2c1bed005128d85136e1288"
+                href="https://gist.github.com/joydeep049/c2252e72d2c1bed005128d85136e1288"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -191,7 +191,7 @@ export default function Home() {
             </div>
             <div className="oss-stats">
               <div><strong>2.5 GB</strong><span>database dependency removed</span></div>
-              <div><strong>8+</strong><span>feature and fix PRs</span></div>
+              <div><strong>40+</strong><span>Pull Requests</span></div>
             </div>
           </div>
         </article>
@@ -204,7 +204,7 @@ export default function Home() {
             <div className="tag-row"><span>PyTorch</span><span>Quantization</span><span>LLMs</span></div>
           </article>
           <article className="experience-card experience-paper">
-            <div className="experience-topline"><span>Summit Horizon Holdings</span><span>Founding intern</span></div>
+            <div className="experience-topline"><span>Summit Horizon Holdings</span><span>Founding Intern</span></div>
             <h3>From auth to payments to infrastructure—the whole product path.</h3>
             <p>Built Recon Social across Flask, React, Stripe, OAuth, JWT, feed pagination, containerized deployment, and webhook-driven flows.</p>
             <div className="tag-row"><span>Flask</span><span>React</span><span>AWS</span><span>Stripe</span></div>
@@ -307,8 +307,8 @@ export default function Home() {
               maintainer in the Python open-source ecosystem.
             </p>
             <p>
-              Away from a profiler or a paper, I’m usually playing guitar, drinking
-              coffee, or explaining why an equation exists in the first place.
+            When I’m not profiling code or reading a paper, I’m usually playing guitar, drinking coffee,
+            or explaining why an equation exists in the first place.
             </p>
           </div>
           <div className="stack-list" aria-label="Technical skills">
@@ -327,9 +327,9 @@ export default function Home() {
           joydeeptripathy3@gmail.com <Arrow />
         </a>
         <div className="social-row">
-          <a href="https://github.com/joydeep-tripathy" target="_blank" rel="noreferrer">GitHub <Arrow /></a>
+          <a href="https://github.com/joydeep049" target="_blank" rel="noreferrer">GitHub <Arrow /></a>
           <a href="https://www.linkedin.com/in/joydeep-tripathy-b766371ab" target="_blank" rel="noreferrer">LinkedIn <Arrow /></a>
-          <a href="https://gist.github.com/joydeep-tripathy/c2252e72d2c1bed005128d85136e1288" target="_blank" rel="noreferrer">GSoC report <Arrow /></a>
+          <a href="https://gist.github.com/joydeep049/c2252e72d2c1bed005128d85136e1288" target="_blank" rel="noreferrer">GSoC report <Arrow /></a>
         </div>
       </section>
 
