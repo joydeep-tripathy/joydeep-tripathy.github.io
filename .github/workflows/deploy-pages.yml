@@ -3,6 +3,16 @@ name: Deploy portfolio to GitHub Pages
 on:
   push:
     branches: [main, master]
+    paths:
+      - "app/**"
+      - "public/**"
+      - "package.json"
+      - "package-lock.json"
+      - "next.config.ts"
+      - "postcss.config.mjs"
+      - "tsconfig.json"
+      - "next-env.d.ts"
+      - ".github/workflows/deploy-pages.yml"
   workflow_dispatch:
 
 permissions:
