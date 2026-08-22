@@ -72,10 +72,3 @@ git push
 ```
 
 The included workflow republishes the site automatically.
-
-## Before sharing it widely
-
-- Review the role-availability line in the hero.
-- Add a résumé button once the final PDF is ready.
-- Replace or expand research cards as projects become public.
-- Keep production metrics accurate and defensible in interviews.
