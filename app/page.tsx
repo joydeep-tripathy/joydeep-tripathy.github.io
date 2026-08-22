@@ -1,5 +1,7 @@
 const Arrow = () => <span aria-hidden="true">↗</span>;
 
+import SocialMenu from "./social-menu";
+
 const proof = [
   { value: "5×", label: "faster evaluation" },
   { value: "~100%", label: "AI availability" },
@@ -11,9 +13,7 @@ export default function Home() {
   return (
     <main>
       <header className="site-header">
-        <a className="monogram" href="#top" aria-label="Joydeep Tripathy, home">
-          JT<span>.</span>
-        </a>
+        <SocialMenu />
         <nav className="desktop-nav" aria-label="Primary navigation">
           <a href="#work">Work</a>
           <a href="#research">Research</a>
@@ -195,6 +195,30 @@ export default function Home() {
             </div>
           </div>
         </article>
+
+        <div className="additional-oss" aria-labelledby="additional-oss-title">
+          <div className="additional-oss-heading">
+            <p className="section-kicker" id="additional-oss-title">Also contributed to</p>
+            <span>Across security, developer tooling, and open hardware</span>
+          </div>
+          <div className="additional-oss-grid">
+            <article>
+              <span>01</span>
+              <h3>Veraison</h3>
+              <p>Confidential Computing Consortium</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Sailing Downstream</h3>
+              <p>RISC-V</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>GitIngest</h3>
+              <p>Open-source developer tooling</p>
+            </article>
+          </div>
+        </div>
 
         <div className="experience-grid">
           <article className="experience-card experience-purple">
